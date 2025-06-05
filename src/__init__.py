@@ -12,9 +12,9 @@ Classes:
 """
 
 # Import key classes for easy access
-from .data_load import DataLoad
-from .analysis import Analysis
-from .visualization import Visualization
+from .financial_news.data_load import DataLoad
+from .financial_news.analysis import Analysis
+from .financial_news.visualization import Visualization
 
 __all__ = [
     'DataLoad',
